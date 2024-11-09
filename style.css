@@ -122,30 +122,58 @@ header {
 .rooms-container {
   min-width: 100vw;
   display: grid;
-  
 }
 
-.room-images{
+.room-images {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: 0 auto;
-  width: 98vw;
+  width: 94vw;
   border: solid gray 0.3px;
   place-items: center;
   gap: 2rem;
-
- 
 }
-
 
 .room {
   border: solid gray 0.3px;
   width: 300px;
-  height: 400px;
+  height: 390px;
   word-spacing: normal;
   justify-content: space-between;
-
- 
   gap: 3rem;
+}
 
+.image-container {
+  width: 300px;
+  height: 270px;
+  overflow: hidden;
+  border-radius: 0.7rem;
+}
+
+.image-container-a-tag {
+  text-decoration: none;
+  color: rgb(107, 99, 99);
+  font-family: "Roboto", Helvetica Neue, sans-serif;
+  font-size: 15px;
+}
+
+.guest-holder {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  top: 0;
+}
+
+.guest-favorite {
+  width: 8vw;
+  height: 4vh;
+  border-radius: 0.8rem;
+  background-color: white;
+  align-content: center;
+  text-align: center;
+  color: black;
+}
+
+.bi-heart-fill path {
 }
