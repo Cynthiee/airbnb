@@ -117,3 +117,35 @@ header {
   align-items: center;
   justify-content: center;
 }
+
+/* ================= Fasttrack is contributing from here */
+.rooms-container {
+  min-width: 100vw;
+  display: grid;
+  
+}
+
+.room-images{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  width: 98vw;
+  border: solid gray 0.3px;
+  place-items: center;
+  gap: 2rem;
+
+ 
+}
+
+
+.room {
+  border: solid gray 0.3px;
+  width: 300px;
+  height: 400px;
+  word-spacing: normal;
+  justify-content: space-between;
+
+ 
+  gap: 3rem;
+
+}
