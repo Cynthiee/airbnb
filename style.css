@@ -1,4 +1,119 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  .first {
+    border: 1px solid rebeccapurple;
+    height: 10vh;
+    width: 90vw;
+    margin-top: 10px;
+  }
+}
+
+.second {
+  height: 12vh;
+  width: 70vw;
+  box-shadow: -4px 3px 5px 0px rgb(110, 106, 110);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.second_div {
+  width: 66vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second_div a {
+  text-decoration: none;
+  color: black;
+}
+
+.where {
+  width: 22vw;
+  border-right: 1px solid black;
+}
+
+.where h1 {
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.where input {
+  border: none;
+  outline: none;
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkin {
+  width: 11vw;
+  border-right: 1px solid black;
+  padding-left: 10px;
+}
+
+.checkin h1 {
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkin p {
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkout {
+  width: 11vw;
+  border-right: 1px solid black;
+  padding-left: 10px;
+}
+
+.checkout h1 {
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkout p {
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.whoSearch {
+  width: 22vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.whoSearch h1 {
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.whoSearch p {
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.who {
+  width: 80%;
+  padding-left: 10px;
+}
+
+.whoSearch i {
+  width: 20%;
+  height: 40px;
+  border: 1px solid red;
+  border-radius: 50%;
+  color: white;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
