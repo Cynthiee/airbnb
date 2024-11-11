@@ -14,8 +14,185 @@
   border-radius: 90px;
 
 * {
-  padding: 0;
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  width: 100%;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.general {
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: ;
+}
+
+.guest-favs {
+  /* border: 1px solid black; */
+  border-radius: 10px;
+}
+
+.guest-div {
+  margin-bottom: 0px;
+  width: 90%;
+  height: 63vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: 1px solid black; */
+}
+
+.guest-div a {
+  text-decoration: none;
+}
+
+.guest-favs {
+  width: 21vw;
+  height: 60vh;
+}
+
+.fav-1 {
+  width: 21vw;
+  height: 44vh;
+  background-image: url(./f398f49e-85fc-4323-9739-64c7a34682dd.webp);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.hmmm {
+  width: 90%;
+  height: 8vh;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 23px;
+}
+
+.icon-div i {
+  font-size: x-large;
+  color: rgba(230, 224, 224, 0.952);
+  text-shadow: 2px 4px 6px gray;
+}
+
+.grow {
+  width: 9vw;
+  height: 4vh;
+  background-color: rgb(247, 250, 253);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  /* text-align: end; */
+}
+
+.guest-favs-2 {
+  width: 21vw;
+  height: 60vh;
+}
+
+.fav-2 {
+  width: 21vw;
+  height: 44vh;
+  background-image: url(./cf5279d4-cc40-4f00-a60d-15d855a36d95.webp);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.guest-favs-3 {
+  width: 21vw;
+  height: 60vh;
+}
+
+.fav-3 {
+  width: 21vw;
+  height: 44vh;
+  background-image: url(./f2e26529-22f0-4133-9e27-fbe7c95c0f8f.webp);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.guest-favs-4 {
+  width: 21vw;
+  height: 60vh;
+}
+
+.fav-4 {
+  width: 21vw;
+  height: 44vh;
+  background-image: url(./29bd377d-fbd1-4c82-acb1-4e519bfa8ea3.webp);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.guest-favs-5 {
+  width: 21vw;
+  height: 60vh;
+}
+
+.fav-5 {
+  width: 21vw;
+  height: 44vh;
+  background-image: url(./WhatsApp\ Image\ 2024-11-08\ at\ 12.05.56_9603f3b0.jpg);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.guest-favs-6 {
+  width: 21vw;
+  height: 60vh;
+}
+
+.fav-6 {
+  width: 21vw;
+  height: 44vh;
+  background-image: url(./WhatsApp\ Image\ 2024-11-08\ at\ 12.05.57_a5f71357.jpg);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.guest-favs-7 {
+  width: 21vw;
+  height: 60vh;
+}
+
+.fav-7 {
+  width: 21vw;
+  height: 44vh;
+  background-image: url(./f519ccd6-7cbd-4011-abe2-301b98b8922b.webp);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.guest-favs-8 {
+  width: 21vw;
+  height: 60vh;
+}
+
+.fav-8 {
+  width: 21vw;
+  height: 44vh;
+  background-image: url(./WhatsApp\ Image\ 2024-11-08\ at\ 12.05.57_ee6f7b28.jpg);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
 }
 
 header {
