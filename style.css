@@ -1,5 +1,6 @@
 
 
+
 .searchboxdiv {
   width: 100vw;
   height: 10vh;
@@ -11,4 +12,183 @@
   height: 100%;
   border: 2px solid black;
   border-radius: 90px;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  .first {
+    border: 1px solid rebeccapurple;
+    height: 10vh;
+    width: 90vw;
+    margin-top: 10px;
+  }
+}
+
+.second {
+  height: 12vh;
+  width: 70vw;
+  box-shadow: -4px 3px 5px 0px rgb(110, 106, 110);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.second_div {
+  width: 66vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second_div a {
+  text-decoration: none;
+  color: black;
+}
+
+.where {
+  width: 22vw;
+  border-right: 1px solid black;
+}
+
+.where h1 {
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.where input {
+  border: none;
+  outline: none;
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkin {
+  width: 11vw;
+  border-right: 1px solid black;
+  padding-left: 10px;
+}
+
+.checkin h1 {
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkin p {
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkout {
+  width: 11vw;
+  border-right: 1px solid black;
+  padding-left: 10px;
+}
+
+.checkout h1 {
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkout p {
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.whoSearch {
+  width: 22vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.whoSearch h1 {
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.whoSearch p {
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.who {
+  width: 80%;
+  padding-left: 10px;
+}
+
+.whoSearch i {
+  width: 20%;
+  height: 40px;
+  border: 1px solid red;
+  border-radius: 50%;
+  color: white;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rooms-container {
+  min-width: 100vw;
+  display: grid;
+}
+
+.room-images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  width: 94vw;
+  border: solid gray 0.3px;
+  place-items: center;
+  gap: 2rem;
+}
+
+.room {
+  border: solid gray 0.3px;
+  width: 300px;
+  height: 390px;
+  word-spacing: normal;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.image-container {
+  width: 300px;
+  height: 270px;
+  overflow: hidden;
+  border-radius: 0.7rem;
+}
+
+.image-container-a-tag {
+  text-decoration: none;
+  color: rgb(107, 99, 99);
+  font-family: "Roboto", Helvetica Neue, sans-serif;
+  font-size: 15px;
+}
+
+.guest-holder {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  top: 0;
+}
+
+.guest-favorite {
+  width: 8vw;
+  height: 4vh;
+  border-radius: 0.8rem;
+  background-color: white;
+  align-content: center;
+  text-align: center;
+  color: black;
+}
+
+.bi-heart-fill path {
+
 }
