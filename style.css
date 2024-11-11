@@ -1,3 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    width: 100vw;
+    height:8vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black;
+    }
+    nav i {
+        font-size: xx-large;
+    }
+    
+    nav :hover {
+        text-decoration: underline;
+        color: rgba(0, 0, 0, 0.685);
+        animation-duration: 19s;
+    }
+=======
 .first {
   border: 1px solid rebeccapurple;
   height: 10vh;
@@ -459,8 +483,4 @@ header {
   align-content: center;
   text-align: center;
   color: black;
-}
-
-.bi-heart-fill path {
-
 }
